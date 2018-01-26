@@ -1,0 +1,12 @@
+<!-- give the input ng-model to set a global variable for the partial -->
+
+
+<!-- ng-repeat will repeat each mushroom the in array with a filter of name 
+that is bout to the input field in order to search for mushrooms -->
+
+
+<ul>
+  <li ng-repeat="book in books">
+    <p ng-repeat="(key, value) in book">{{key+": "+value}}</p>
+  </li>
+</ul>
